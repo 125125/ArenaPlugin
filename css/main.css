@@ -1,0 +1,55 @@
+* {
+margin:0;
+padding:0;
+}
+
+#wrapper {
+margin:100px;
+}
+
+#container {
+width:1000px;
+height:700px;
+background-color:#d5ae37;
+margin:auto;
+}
+
+#head {
+height:150px;
+width:100%;
+}
+
+#searchResult {
+width:100%;
+border-collapse:collapse;
+}
+
+#searchResult .tablerow:nth-child(odd) {
+background-color:#EAEAEA;
+}
+
+#searchResult .tablerow:nth-child(even) {
+background-color:#d5d5d5;
+}
+
+#searchbar {
+width:149px;
+}
+
+#form {
+width:153px;
+padding-top:50px;
+margin:auto;
+}
+
+label {
+cursor:pointer;
+}
+
+input[type="radio"] {
+cursor:pointer;
+}
+
+td {
+text-align:center;
+}
